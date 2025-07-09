@@ -6,6 +6,7 @@
   <title>Anime Favoritku</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
   <script>
   // Cek apakah dark mode sudah disimpan
   if (localStorage.getItem("darkMode") === "enabled") {
@@ -19,8 +20,8 @@
     localStorage.setItem("darkMode", mode);
   });
 </script>
-<body>
-  <button id="darkToggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+  <button id="darkToggle">🌙 Dark Mode</button>
 
   <header>
     <h1>✨ Anime List ✨</h1>
